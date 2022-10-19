@@ -24,7 +24,7 @@ cualquier duda o mismo para postularte como voluntario/a para ayudar a los resid
 
 ## Grupo 15
 
-> Carolina Yriarte
+> Carolina Yriarte (**SCRUM MASTER**)
 
 TAREA: 
     
