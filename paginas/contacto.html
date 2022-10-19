@@ -2,29 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contacto.css">
     <title>Contacto</title>
+     <!-- GOOGLE FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap"
+       rel="stylesheet"
+     />
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Satisfy&display=swap"
+       rel="stylesheet"
+     />
 </head>
-<body>
+    <body>
+        <!-- MENU -->
+        <header class="header">
+            <div class="container">
+            <a href="/paginas/Inicio.html">
+                <img src="/imagenes/LogoCambiado.png" alt="logo" />
+            </a>
+            <nav class="nav-menu">
+                <ul class="menu">
+                 <li><a href="/paginas/Inicio.html">Inicio</a></li>
+                 <li><a href="/paginas/conocenos.html">Conocenos</a></li>
+                 <li><a href="/paginas/donar.html">Colaborar</a></li>
+                 <li><a href="/paginas/visitanos.html">Visitanos</a></li>
+                 <li><a href="/paginas/contacto.html">Contacto</a></li>
+             </ul>
+             </nav>
+         </div>
+         </header>
 
-       <!-- BARRA DE NAVEGACION -->
-       <!-- <header class="header">
-        <div class="container">
-          <a href="/paginas/Inicio.html">
-            <img src="/imagenes/LogoCambiado.png" alt="logo" />
-          </a> -->
-          <nav class="nav-menu">
-            <ul class="menu">
-              <li><a href="/paginas/Inicio.html">Inicio</a></li>
-              <li><a href="/paginas/conocenos.html">Conocenos</a></li>
-              <li><a href="/paginas/donar.html">Colaborar</a></li>
-              <li><a href="/paginas/visitanos.html">Visitanos</a></li>
-              <li><a href="/paginas/contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
+         <!-- FORMULARIO -->
+         <div>
+        <form action="" id="formulario">
+         <h2>CONTACTO</h2>
+            
+            <input type="text" class="form_input" name="nombre">
+            <label for="" class="form_label">Nombre</label>
+            
+            
+            <input type="email" class="form_input" name="correo">
+            <label for="" class="form_label">Correo</label>
+            
+            <input type="interger" class="form_input" name="telefono">
+            <label for="" class="form_label">Teléfono</label>
+            
+            
+            <input type="text" class="form_input" name="Mensaje"></input>
+            <label for="" class="form_label">Mensaje</label>
+            <input type="submit" value="ENVIAR" id="boton">
+        </form>
+
+        <div class="img_form" >
+            <img src="/imagenes/contactoImg.png" width="500px" alt="contacto">
         </div>
-      </header>
+
+        <footer class="foot">
+            <a href="">
+              <img src="/imagenes/instagram.png" alt="instagram" />
+            </a>
+            <p class="derechos">©Codo a Codo 2022</p>
+          </footer>
+          
+
+            
     
-</body>
+    </div>
+        <script src="/js/contacto.js"></script>
+        <script src="https://kit.fontawesome.com/c4aa002a99.js" crossorigin="anonymous"></script>
+    </body>
 </html>
