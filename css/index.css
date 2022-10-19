@@ -146,13 +146,13 @@ a > img {
   .carousel-item {
     height: 280px;
   }
-
-  .carousel-inner p{
+}
+  /* .carousel-inner p{
     
     
    
   }
-}
+} */
 
 .carousel-inner p {
   display:flex;
