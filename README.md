@@ -28,7 +28,7 @@ cualquier duda o mismo para postularte como voluntario/a para ayudar a los resid
 
 TAREA: 
     
-* Crear el INICIO. Cuenta con una imagen de fondo, un logo personalizado, una barra de navegacion, un carrusel hecho con bootstrap, un botón con una imagen de fondo y un pie de pagina con derechos reservados y enlaces a redes sociales.
+* Crear el INICIO. Cuenta con una imagen de fondo, un logo personalizado, una barra de navegacion, un carrusel hecho con HTM,CSS Y JS, un botón con una imagen de fondo y un pie de pagina con derechos reservados y enlaces a redes sociales. El inicio tiene diseño responsive.
 
 * Crear página de CONTACTO. Cuenta con un logo personalizado, con una barra de navegacion para interactuar con las diferentes secciones, un formulario de contacto con una animacion hecha con css puro, una imagen del lado derecho del formulario y un pié de página.
 
@@ -40,7 +40,7 @@ TAREA:
 
 TAREA: 
 
-* Crear la seccion CONOCENOS Y VISITANOS 
+* Crear la seccion CONOCENOS Y VISITANOS (Aun no presentado)
 ***
 
 
@@ -49,6 +49,6 @@ TAREA:
 
 TAREA: 
 
-* Crear la seccion COLABORAR y redactar el README 
+* Crear la seccion COLABORAR (Aun no presentado)
 ***
 

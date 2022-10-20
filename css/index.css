@@ -19,7 +19,6 @@ body {
 
 .logo {
   height: 100px;
-  height: 100px;
 }
 
 .enlace {
@@ -29,14 +28,14 @@ body {
 
 .menu {
   float: right;
-  margin-right: 50px 50px;
+  margin-right: 50px;
 }
 
 .menu li {
   list-style: none;
   display: inline-block;
   line-height: 140px;
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 .menu li a {
@@ -66,15 +65,12 @@ body {
   display: none;
 }
 
-
-
 /* CARRUSEL */
 
 .carousel {
   overflow: hidden;
   max-width: 100%;
   position: relative;
-  
 }
 
 .carousel .carousel__item,
@@ -129,7 +125,6 @@ body {
     transform: opacity linear;
   }
 }
-
 
 /* REQUISITOS VOLUNTARIO */
 
@@ -211,19 +206,24 @@ body {
 
 
 
-/* TABLET */
-@media (max-width: 768px) {
-  .enlace {
-    padding-left: 20px;
+
+
+
+@media (max-width: 992px) {
+  .menu li {
+    display: inline-block;
+    margin: 50px 0;
+    line-height: 30px;
   }
   .menu li a {
-    margin-left: 30px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
-/* CELULAR */
-@media (max-width: 768px) {
+
+
+/* BREAKPOINT 1*/
+@media (max-width: 854px) {
   .checkbtn {
     display: block;
   }
@@ -237,17 +237,13 @@ body {
     top: 130px;
     left: -100%;
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.1s;
   }
 
   .menu li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
-  } 
-
-  .menu li a {
-    font-size: 20px;
   }
 
   .menu li a:hover {
@@ -256,32 +252,109 @@ body {
     background-color: #fff;
   }
 
-  #check:checked ~ .menu{
+  #check:checked ~ .menu {
     left: 0;
   }
 
-  .voluntario{
+  .voluntario {
     padding: 40px;
-    
   }
 
-  .voluntario h1{
+  .voluntario h1 {
     font-size: 25px;
     margin: auto;
     padding: 20px 10px;
     height: -100px;
-    
   }
 
-  .btn-voluntario{
+  .btn-voluntario {
     padding: 10px;
     font-size: 12px;
   }
-  .btn-volun{
-    margin-top: 0;
-    margin-bottom: 0px;
-    padding-bottom: 30px;
-    background-size: 500px;
+  .btn-volun {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 200px;
+    background-size: 600px;
   }
 }
 
+/* BREAKPOINT 2 */
+@media (min-width: 854px) {
+  .menu li {
+    display: inline-block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .menu li a {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .voluntario h1 {
+    font-size: 35px;
+    margin: auto;
+    padding: 20px 0px;
+    height: -20px;
+  }
+
+  .btn-voluntario {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .btn-volun {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 200px;
+    background-size: 800px;
+    padding: 150px;
+  }
+}
+
+/* BREAKPOINT 3 */
+@media (min-width: 992px) {
+  .enlace {
+    padding-left: 20px;
+  }
+  .menu li a {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+
+  .btn-voluntario {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .btn-volun {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 200px;
+    background-size: 800px;
+    padding: 150px;
+  }
+}
+
+/* BREAKPOINT 4 */
+@media (min-width: 1200px) {
+  .enlace {
+    padding-left: 30px;
+  }
+  .menu li a {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .btn-voluntario {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .btn-volun {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 300px;
+    background-size: 1000px;
+    padding: 150px;
+  }
+}
