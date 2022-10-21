@@ -45,7 +45,6 @@ body {
   border-radius: 5px;
 }
 
-.menu li a.active,
 .menu li a:hover {
   background-color: #e89124;
   transition: 0.5s;
@@ -65,12 +64,14 @@ body {
   display: none;
 }
 
+
 /* CARRUSEL */
 
 .carousel {
-  overflow: hidden;
+  overflow:hidden;
   max-width: 100%;
   position: relative;
+  max-height: 500px;
 }
 
 .carousel .carousel__item,
@@ -82,6 +83,7 @@ body {
   width: 100%;
   max-width: 100%;
   height: auto;
+  object-fit:cover
 }
 
 .carousel .carousel__item--visible {
@@ -147,6 +149,7 @@ body {
 .voluntario li {
   font-family: "Source Sans Pro", sans-serif;
   color: white;
+  list-style: none;
   text-shadow: 2px 2px 5px black;
   font-size: 18px;
   font-weight: 400;
@@ -213,7 +216,7 @@ body {
   }
 
   .menu {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     width: 100%;
     height: 100;
@@ -300,6 +303,7 @@ body {
   .enlace {
     padding-left: 20px;
   }
+
   .menu li a {
     margin-left: 30px;
     font-size: 16px;
@@ -319,22 +323,12 @@ body {
   }
 }
 
-@media (max-width: 992px) {
-  .menu li {
-    display: inline-block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  .menu li a {
-    font-size: 14px;
-  }
-}
-
 /* BREAKPOINT 4 */
 @media (min-width: 1200px) {
   .enlace {
     padding-left: 30px;
   }
+
   .menu li a {
     margin-left: 40px;
     font-size: 18px;
