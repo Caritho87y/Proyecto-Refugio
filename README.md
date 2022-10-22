@@ -17,6 +17,7 @@ cualquier duda o mismo para postularte como voluntario/a para ayudar a los resid
 * BOOTSTRAP
 * GOOGLE FONTS
 * FONTAWESOME
+* ANIMATE.CSS
 
 
 ***
@@ -28,11 +29,13 @@ cualquier duda o mismo para postularte como voluntario/a para ayudar a los resid
 
 TAREA: 
     
-* Crear el INICIO. Cuenta con una imagen de fondo, un logo personalizado, una barra de navegacion, un carrusel hecho con HTM,CSS Y JS, un botón con una imagen de fondo y un pie de pagina con derechos reservados y enlaces a redes sociales. El inicio tiene diseño responsive.
+* Crear el "INICIO". Cuenta con una imagen de fondo, un logo personalizado, una barra de navegacion, un carrusel hecho con HTM,CSS Y JS, un botón con una imagen de fondo y un pie de pagina con derechos reservados y enlaces a redes sociales. El inicio tiene diseño responsive.
 
-* Crear página de CONTACTO. Cuenta con un logo personalizado, con una barra de navegacion para interactuar con las diferentes secciones, un formulario de contacto con una animacion hecha con css puro, una imagen del lado derecho del formulario y un pié de página.
+* Crear página de "CONTACTO". Cuenta con un logo personalizado, con una barra de navegacion para interactuar con las diferentes secciones, un formulario de contacto con una animacion hecha con css puro, una imagen del lado derecho del formulario y un pié de página.
 
-* Redactar el README (desición de último momento)
+* Redactar el "README" (desición de último momento)
+
+* Crear la página "CONOCENOS" (desición de último momento) Usé la barra de navegación como plantilla. Tiene una animación hecha con ANIMATE.CSS, una imagen junto con un texto contando quienes son y que hacen. Tambien tiene el pie de página.
 ***
 
 
@@ -40,7 +43,7 @@ TAREA:
 
 TAREA: 
 
-* Crear la seccion CONOCENOS Y VISITANOS (Aun no presentado)
+* Crear la seccion CONOCENOS Y VISITANOS (no presentado)
 ***
 
 
@@ -49,6 +52,6 @@ TAREA:
 
 TAREA: 
 
-* Crear la seccion COLABORAR (Aun no presentado)
+* Crear la seccion COLABORAR (no presentado)
 ***
 
