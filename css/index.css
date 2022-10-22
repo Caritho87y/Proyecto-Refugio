@@ -40,7 +40,7 @@ body {
 
 .menu li a {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding: 7px 13px;
   border-radius: 5px;
 }
@@ -83,7 +83,7 @@ body {
   width: 100%;
   max-width: 100%;
   height: auto;
-  object-fit:cover
+  object-fit:cover;
 }
 
 .carousel .carousel__item--visible {
@@ -131,10 +131,16 @@ body {
 /* REQUISITOS VOLUNTARIO */
 
 .voluntario {
-  line-height: 24px;
+  text-align:justify;
+  line-height: 35px;
   background-color: rgba(105, 105, 105, 0.7);
-  margin-top: -10px;
+  margin-top: -20px;
   padding: 30px 20px;
+}
+
+.voluntario ul{
+ margin-left: 80px;
+ margin-right: 80px;
 }
 
 .voluntario h1 {
@@ -244,7 +250,7 @@ body {
   }
 
   .voluntario {
-    padding: 40px;
+    padding: auto;
   }
 
   .voluntario h1 {
@@ -252,7 +258,11 @@ body {
     margin: auto;
     padding: 20px 10px;
     height: -100px;
-  }
+}
+
+.voluntario ul{
+  margin: auto;
+}
 
   .btn-voluntario {
     padding: 10px;

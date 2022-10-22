@@ -8,6 +8,7 @@
 
 body {
   background-image: url("/imagenes/fondoNav.png");
+  background-size: contain;
   
 }
 
@@ -17,6 +18,7 @@ body {
   height: 140px;
   width: 100%;
   background-color: rgba(105, 105, 105, 0.7);
+  
 }
 
 .logo {
@@ -42,7 +44,7 @@ body {
 
 .menu li a {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding: 7px 13px;
   border-radius: 5px;
 }
@@ -140,9 +142,6 @@ textarea{
 }
 
 @media (max-width:480px){
-  /* .fondoForm{
-    background-image: url("/imagenes/fondoresponsivefor.png");
-  } */
   .formu{
     width: 100%;
   }
@@ -151,103 +150,11 @@ textarea{
 @media (max-width:992px){
   .fondoForm{
     background-image: url("/imagenes/fondoresponsivefor.png");
+    background-size: cover;
+    width: 100%;
   }
 }
-/* .formulario_div{
-  background-image: url("/imagenes/fondoContacto.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: -100px;
-}
 
-
-.formu {
-
-  width: 500px;
-  margin: 200px;
-  background-color: rgba(228, 141, 35, 0.752);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 100px;
-  margin-left: 90px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px;
-}
-
-.form_label {
-  font-size: 1.3em;
-  padding-left: 15px;
-  position: absolute;
-  margin-top: -85px;
-  z-index: -20;
-  color: rgba(0, 0, 0, 0.5s);
-  transition: all 0.4s;
-}
-
-.form_input {
-  display: block;
-  font-family: "PT Serif", serif;
-  width: 100%;
-  margin-bottom: 40px;
-  background: rgba(255, 255, 255, 0.4);
-  padding: 20px;
-  box-sizing: border-box;
-  font-size: 1.3em;
-  border: none;
-}
-
-/* .img_form img{
-  position: relative;
-  width: 100%;
-  margin-top: -700px;
-  margin-right: 180px;
-  box-shadow: 0 0 20px;
-  border-radius: 5px;
-  float:right
-} */
-
-/*.form_input:focus {
-  outline: 3px solid rgba(0, 0, 0, 0.33);
-  background: rgba(255, 255, 255, 0.4);
-}
-input:focus + label {
-  margin-top: -140px;
-}
-
-.fijar {
-  margin-top: -135px;
-}
-
-h2 {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px black;
-}
-
-#boton {
-  background-color: black;
-  border-radius: 15px;
-  border: none;
-  color: white;
-  font-weight: 700;
-  padding: 15px 20px;
-  text-decoration: none;
-  transition-duration: 0.4s;
-}
-
-#boton:hover {
-  cursor: pointer;
-  color: black;
-  outline: none;
-  border-radius: 15px;
-  background-color: #e89124;
-  transition: 0.2s;
-  text-decoration: none;
-} */
 
 /* FOOTER */
 
@@ -327,25 +234,5 @@ h2 {
     margin-left: 30px;
     font-size: 18px;
   }
-}
-
-
-@media (max-width: 1350px) {
-  .img_form img{
-    margin-right: 100px;
-   }
-}
-
-@media (max-width: 1270px) {
-  .img_form img{
-    margin-right: 50px;
-   }
-}
-
-@media (max-width: 1220px) {
-  .img_form img{
-    margin: auto;
-    position: static;
-   }
 }
 
