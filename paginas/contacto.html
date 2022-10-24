@@ -5,7 +5,7 @@
     <link rel="icon" href="/imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Patitas Felices</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="/css/contacto.css" />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,20 +14,13 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- ANIMATE.CSS -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Satisfy&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-    <!-- BOOTSTRAP -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
   </head>
   <body>
     <!-- BARRA DE NAVEGACION -->
@@ -42,7 +35,7 @@
       <ul class="menu">
         <li><a href="/paginas/index.html">Inicio</a></li>
         <li><a href="/paginas/conocenos.html">Conocenos</a></li>
-        <li><a href="/paginas/colaborar.html">Colaborar</a></li>
+        <li><a href="/paginas/adoptar.html">Adoptar</a></li>
         <li><a href="/paginas/visitanos.html">Visitanos</a></li>
         <li><a href="/paginas/contacto.html">Contacto</a></li>
       </ul>
@@ -64,8 +57,59 @@
         <input type="email" id="correo" name="correo" />
         <label for="" class="form_label">Mensaje</label>
         <textarea id="mensaje" name="mensaje"></textarea>
-        <input type="button" value="Enviar" id="boton"/>
+        <input type="button" value="Enviar" id="boton" />
       </form>
+    </div>
+
+    <!-- MAPAS -->
+    <div class="map">
+      <h1 class="animate__animated animate__flipInX animate__infinite	infinite animate__slow	2s">PODES VISITARNOS EN:</h1>
+    </div>  
+      <div class="mapas">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7643229652135!2d-58.39831168424402!3d-34.635395566682895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfb96afffa91a74e!2zMzTCsDM4JzA3LjQiUyA1OMKwMjMnNDYuMCJX!5e0!3m2!1ses-419!2sar!4v1666613067320!5m2!1ses-419!2sar"
+          width="400"
+          height="350"
+          style="border: 1 ;box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.60);"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2851763224294!2d-58.38455608424381!3d-34.64750026732416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4fe264b4d5%3A0x98132a2054d964c9!2sAlvarado%202500%2C%20C1290AAL%20CABA!5e0!3m2!1ses-419!2sar!4v1666613332808!5m2!1ses-419!2sar"
+          width="400"
+          height="350"
+          style="border: 1 ;box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.60);"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    
+    <!-- TELEFONOS -->
+    <div class="contactoTel">
+      <ul class="fa-ul">
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-envelope"></i></span
+          >patitasfelices@info.com.ar
+        </li>
+        <li>
+          <span class="fa-li"> <i class="fa-solid fa-phone"></i></span
+          >+5411-4562-2525
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-brands fa-square-whatsapp"></i></span
+          >+5411-6568-2840
+        </li>
+      </ul>
+      <img src="/imagenes/LogoCambiado.png" width="200px" />
+      <ul class="fa-ul">
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-clock"></i></span>Horario
+        </li>
+        <li><span class="fa-li"></span> Lun. a Lun. de 9 a.m a 21 p.m</li>
+        <li><span class="fa-li"></span>Feriados: Abierto</li>
+      </ul>
     </div>
 
     <!-- FOOTER -->
@@ -81,7 +125,5 @@
       src="https://kit.fontawesome.com/c4aa002a99.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script> -->
   </body>
 </html>

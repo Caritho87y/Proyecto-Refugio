@@ -29,6 +29,7 @@ body {
 .menu {
   float: right;
   margin-right: 50px;
+  
 }
 
 .menu li {
@@ -43,11 +44,13 @@ body {
   font-size: 18px;
   padding: 7px 13px;
   border-radius: 5px;
+  text-shadow: 2px 2px 5px black
 }
 
 .menu li a:hover {
   background-color: #e89124;
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 .checkbtn {
@@ -71,7 +74,7 @@ body {
   overflow:hidden;
   max-width: 100%;
   position: relative;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .carousel .carousel__item,
@@ -198,9 +201,10 @@ body {
 /* FOOTER */
 
 .foot {
-  padding: 50px 0px 0px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
+  background-color: rgba(105, 105, 105, 0.7);
 }
 
 .foot img {
@@ -211,6 +215,9 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  background-color: rgba(105, 105, 105, 0.7);
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
 }
 
 /* ----------------------------------------------------------------- */

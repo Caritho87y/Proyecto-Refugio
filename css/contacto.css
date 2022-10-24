@@ -8,8 +8,6 @@
 
 body {
   background-image: url("/imagenes/fondoNav.png");
-  background-size: contain;
-  
 }
 
 
@@ -47,6 +45,7 @@ body {
   font-size: 18px;
   padding: 7px 13px;
   border-radius: 5px;
+  text-shadow: 2px 2px 5px black
 }
 
 .checkbtn {
@@ -65,6 +64,7 @@ body {
 .menu li a:hover {
   background-color: #e89124;
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 .checkbtn {
@@ -155,13 +155,51 @@ textarea{
   }
 }
 
+/* MAPAS */
+
+.map{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  
+}
+
+.map h1{
+  color: #e89124;
+  font-family: 'Righteous', cursive;
+  text-shadow: 2px 2px 5px black;
+  background-color: rgba(105, 105, 105, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.mapas{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+
+/* TELEFONOS */
+
+.contactoTel{
+  display:flex;
+  justify-content:space-evenly;
+  justify-items: center;
+  margin-top: 100px;
+  align-items: center;
+  font-size: 18px;
+}
+
 
 /* FOOTER */
 
 .foot {
-  padding: 50px 0px 0px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
+  background-color: rgba(105, 105, 105, 0.7);
 }
 
 .foot img {
@@ -171,7 +209,10 @@ textarea{
 .derechos {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: rgba(105, 105, 105, 0.7);
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
 }
 
 /* ------------------------------------------------------- */
