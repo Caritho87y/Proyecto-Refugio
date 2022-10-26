@@ -68,6 +68,43 @@ body {
   display: none;
 }
 
+/* MAPAS */
+
+.map{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  
+}
+
+.map h1{
+  color: #e89124;
+  font-family: 'Righteous', cursive;
+  text-shadow: 2px 2px 5px black;
+  background-color: rgba(105, 105, 105, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.mapas{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+
+/* TELEFONOS */
+
+.contactoTel{
+  display:flex;
+  justify-content:space-evenly;
+  justify-items: center;
+  margin-top: 100px;
+  align-items: center;
+  font-size: 18px;
+}
+
 /* FOOTER */
 
 .foot {

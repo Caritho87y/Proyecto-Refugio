@@ -118,6 +118,26 @@
     margin-bottom: 80px;
  }
 
+ .history{
+  display: flex;
+  color: #e89124;
+  padding: 30px;
+  justify-content: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+ }
+
+ .historia{
+  display: flex;
+  justify-content:center;
+  line-height: 1.5;
+  padding: 50px 70px;
+  margin: 20px 100px;
+  background-color:#fff;
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+ }
+
 
 /* FOOTER */
 

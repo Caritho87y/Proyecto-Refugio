@@ -1,21 +1,41 @@
+// VALIDACION FORMULARIO
 
-//VALIDACION DE DATOS DE LOS INPUT
+var error = document.getElementById("error");
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("formulario").addEventListener('submit', validarFormulario); 
-  });
-  
-  function validarFormulario(evento) {
-    evento.preventDefault();
-    var usuario = document.getElementById('nombre').value;
-    if(usuario.length == 0) {
-      alert('No has escrito nada en el usuario');
-      return;
-    }
-    var clave = document.getElementById('clave').value;
-    if (clave.length < 6) {
-      alert('La clave no es válida');
-      return;
-    }
-    this.submit();
+const NameValid = /^[a-zA-Z\s]+$/;
+const digit = /\d/;
+const email = /(@)(.+)$/;
+
+function enviarFormulario() {
+  console.log("enviando formulario");
+  var mensajeError = [];
+
+  // NOMBRE
+  if (nombre.value === null || nombre.value === "") {
+    mensajeError.push("Ingresar nombre");
+  } else if (!NameValid.test(nombre.value)) {
+    mensajeError.push("'Nombre' debe tener solo letras");
   }
+
+  // TELEFONO
+  if (telefono.value === null || telefono.value === "") {
+    mensajeError.push("ingresar telefono");
+  } else if (!digit.test(telefono.value)) {
+    mensajeError.push("'Telefono' debe tener solo números");
+  }
+
+  // CORREO
+  if (correo.value === null || correo.value === "") {
+    mensajeError.push("ingresar correo");
+  } else if (!email.test(correo.value)) {
+    mensajeError.push("'Correo'debe ser válido");
+  }
+
+  // MENSAJE
+  if (mensaje.value === null || mensaje.value === "") {
+    mensajeError.push("ingresar mensaje");
+  }
+
+  error.innerHTML = mensajeError.join(", ");
+  return false;
+}

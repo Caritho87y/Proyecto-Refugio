@@ -49,16 +49,22 @@
           CONTACTO
           <i class="fa-solid fa-paw"></i>
         </h2>
-        <label for="" class="form_label">Nombre</label>
+        <label for="nombre" class="form_label">Nombre</label>
         <input type="text" id="nombre" name="nombre" required/>
-        <label for="" class="form_label">Teléfono</label>
+        
+        <label for="telefono" class="form_label">Teléfono</label>
         <input type="integer" id="telefono" name="telefono" required/>
-        <label for="" class="form_label">Correo</label>
+      
+        <label for="correo" class="form_label">Correo</label>
         <input type="email" id="correo" name="correo" required/>
-        <label for="" class="form_label">Mensaje</label>
+        
+        <label for="mensaje" class="form_label">Mensaje</label>
         <textarea id="mensaje" name="mensaje"></textarea required>
-        <input type="button" value="Enviar" id="boton" />
+         
+        <input type="submit" onClick="return enviarFormulario()" value="Enviar" id="boton" />
+         <div id="error"></div>
       </form>
+     
     </div>
 
     <!-- MAPAS -->

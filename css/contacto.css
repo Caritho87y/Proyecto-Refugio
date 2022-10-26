@@ -159,6 +159,16 @@ textarea{
   }
 }
 
+#error{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: red;
+  margin-top: auto;
+  padding: 0 15px;
+  border-radius: 15px;
+}
+
 /* MAPAS */
 
 .map{
@@ -218,6 +228,7 @@ textarea{
   color: #fff;
   text-shadow: 2px 2px 5px black;
 }
+
 
 /* ------------------------------------------------------- */
 
