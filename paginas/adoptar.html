@@ -1,1 +1,65 @@
-COLABORAR
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/imagenes/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patitas Felices</title>
+    <link rel="stylesheet" href="/css/adoptar.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="nav">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <a href="/paginas/index.html" class="enlace">
+        <img src="/imagenes/LogoCambiado.png" class="logo" />
+      </a>
+      <ul class="menu">
+        <li><a href="/paginas/index.html">Inicio</a></li>
+        <li><a href="/paginas/conocenos.html">Conocenos</a></li>
+        <li><a href="/paginas/adoptar.html">Adoptar</a></li>
+        <li><a href="/paginas/visitanos.html">Visitanos</a></li>
+        <li><a href="/paginas/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- LOADER -->
+    <div id="contenedor_carga">
+      <div id="carga"></div>
+    </div>
+
+    <!-- GALERIA DE IMAGENES -->
+    <h1 class="animate__animated animate__backInUp">Galeria de imagenes</h1>
+    <div class="api"></div>
+
+    <!-- FOOTER -->
+    <div class="futer">
+      <footer class="foot">
+        <a href="">
+          <img src="/imagenes/instagram.png" alt="instagram" />
+        </a>
+      </footer>
+      <p class="derechos">©Codo a Codo 2022 - Derechos Reservados</p>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/407c3ad120.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/dataApi.js"></script>
+  </body>
+</html>

@@ -84,12 +84,11 @@ body {
 /* FORMULARIO */
 
 .fondoForm{
-  min-height: 600px;
-  min-width: 400px;
+  display: flex;
   background-image: url("/imagenes/fondoContacto.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  margin-top: -40px;
+  background-size: cover;
+  align-items: center;
 }
 
 .formu{
@@ -98,8 +97,9 @@ body {
   background-color: rgba(105, 105, 105, 0.7);
   padding: 10px 20px;
   box-sizing: border-box;
-  border-radius: 7px;
+  border-radius: 10px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .form_label{
@@ -135,10 +135,14 @@ textarea{
   background-color: #e89124;
   color: #fff;
   padding: 20px;
+  border-radius: 10px;
 }
 
 #boton:hover{
   cursor: pointer;
+  background-color: black;
+  color: #e89124;
+  transition: 0.3s;
 }
 
 @media (max-width:480px){
@@ -250,6 +254,23 @@ textarea{
   #check:checked ~ .menu {
     left: 0;
   }
+
+  .mapas{
+    flex-wrap: wrap;
+    padding: 50px 30px;
+    transition: all 0.8s;
+    gap: 40px;
+  }
+  
+  .contactoTel{
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px ;
+    margin: 30px;
+    padding-top: 20px 20px;
+    transition: all 0.8s;
+    gap: 20px;
+  }
 }
 
 /* BREAKPOINT 2 */
@@ -263,6 +284,8 @@ textarea{
     margin-left: 30px;
     font-size: 16px;
   }
+
+
 }
 
 /* BREAKPOINT 3 */

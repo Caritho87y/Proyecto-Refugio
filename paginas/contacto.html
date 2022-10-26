@@ -29,7 +29,7 @@
       <label for="check" class="checkbtn">
         <i class="fa-solid fa-bars"></i>
       </label>
-      <a href="#" class="enlace">
+      <a href="/paginas/index.html" class="enlace">
         <img src="/imagenes/LogoCambiado.png" alt="" class="logo" />
       </a>
       <ul class="menu">
@@ -43,20 +43,20 @@
 
     <!-- FORMULARIO -->
     <div class="fondoForm">
-      <form class="formu" action="">
+      <form class="formu" id="formulario">
         <h2>
           <i class="fa-solid fa-paw"></i>
           CONTACTO
           <i class="fa-solid fa-paw"></i>
         </h2>
         <label for="" class="form_label">Nombre</label>
-        <input type="text" id="nombre" name="nombre" />
+        <input type="text" id="nombre" name="nombre" required/>
         <label for="" class="form_label">Teléfono</label>
-        <input type="integer" id="telefono" name="telefono" />
+        <input type="integer" id="telefono" name="telefono" required/>
         <label for="" class="form_label">Correo</label>
-        <input type="email" id="correo" name="correo" />
+        <input type="email" id="correo" name="correo" required/>
         <label for="" class="form_label">Mensaje</label>
-        <textarea id="mensaje" name="mensaje"></textarea>
+        <textarea id="mensaje" name="mensaje"></textarea required>
         <input type="button" value="Enviar" id="boton" />
       </form>
     </div>
@@ -120,7 +120,7 @@
     </footer>
     <p class="derechos">©Codo a Codo 2022 - Derechos Reservados</p>
 
-    <!-- <script src="/js/contacto.js"></script> -->
+    <script src="/js/contacto.js"></script>
     <script
       src="https://kit.fontawesome.com/c4aa002a99.js"
       crossorigin="anonymous"

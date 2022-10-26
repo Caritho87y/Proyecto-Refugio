@@ -67,6 +67,7 @@
   }
 
   /* QUIENES SOMOS */
+
   h1{
     display: flex;
     justify-content: center;
@@ -176,33 +177,32 @@
     #check:checked ~ .menu {
       left: 0;
     }
-  
-    .voluntario {
-      padding: auto;
+
+    h1{
+     margin-left: 50%;
+     margin-right: 50%;
     }
-  
-    .voluntario h1 {
-      font-size: 25px;
+
+    .somos{
+      flex-wrap: wrap;
+      margin:auto;
+    }
+    
+    .somos p{
+      flex-wrap: wrap;
       margin: auto;
-      padding: 20px 10px;
-      height: -100px;
-  }
-  
-  .voluntario ul{
-    margin: auto;
-  }
-  
-    .btn-voluntario {
-      padding: 10px;
-      font-size: 12px;
     }
-    .btn-volun {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      padding-bottom: 200px;
-      background-size: 600px;
+
+    .contactoTel{
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 10px ;
+      margin: 50px;
+      padding-top: 20px 20px;
+      transition: all 0.8s;
+      gap: 20px;
     }
-  }
+}
   
   /* BREAKPOINT 2 */
   @media (min-width: 854px) {
