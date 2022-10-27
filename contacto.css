@@ -7,16 +7,14 @@
 }
 
 body {
-  background-image: url("/imagenes/fondoNav.png");
+  background-image: url("imagenes/fondoNav.png");
 }
-
 
 /* BARRA DE NAVEGACION */
 .nav {
   height: 140px;
   width: 100%;
   background-color: rgba(105, 105, 105, 0.7);
-  
 }
 
 .logo {
@@ -45,7 +43,7 @@ body {
   font-size: 18px;
   padding: 7px 13px;
   border-radius: 5px;
-  text-shadow: 2px 2px 5px black
+  text-shadow: 2px 2px 5px black;
 }
 
 .checkbtn {
@@ -83,17 +81,17 @@ body {
 
 /* FORMULARIO */
 
-.fondoForm{
+.fondoForm {
   display: flex;
-  background-image: url("/imagenes/fondoContacto.png");
+  background-image: url("imagenes/fondoContacto.png");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
 }
 
-.formu{
+.formu {
   width: 450px;
-  margin:auto;
+  margin: auto;
   background-color: rgba(105, 105, 105, 0.7);
   padding: 10px 20px;
   box-sizing: border-box;
@@ -102,13 +100,13 @@ body {
   margin-bottom: 40px;
 }
 
-.form_label{
+.form_label {
   color: #fff;
   text-shadow: 2px 2px 5px black;
-  }
+}
 
-h2{
-  color:#fff;
+h2 {
+  color: #fff;
   text-align: center;
   margin: 0;
   font-size: 30px;
@@ -116,7 +114,8 @@ h2{
   text-shadow: 2px 2px 5px black;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
@@ -125,41 +124,41 @@ input, textarea {
   border: none;
 }
 
-textarea{
+textarea {
   min-height: 100%;
   max-height: 200px;
   max-width: 100%;
 }
 
-#boton{
+#boton {
   background-color: #e89124;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
 }
 
-#boton:hover{
+#boton:hover {
   cursor: pointer;
   background-color: black;
   color: #e89124;
   transition: 0.3s;
 }
 
-@media (max-width:480px){
-  .formu{
+@media (max-width: 480px) {
+  .formu {
     width: 100%;
   }
 }
 
-@media (max-width:992px){
-  .fondoForm{
-    background-image: url("/imagenes/fondoresponsivefor.png");
+@media (max-width: 992px) {
+  .fondoForm {
+    background-image: url("imagenes/fondoresponsivefor.png");
     background-size: cover;
     width: 100%;
   }
 }
 
-#error{
+#error {
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -171,17 +170,16 @@ textarea{
 
 /* MAPAS */
 
-.map{
+.map {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 50px;
-  
 }
 
-.map h1{
+.map h1 {
   color: #e89124;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   text-shadow: 2px 2px 5px black;
   background-color: rgba(105, 105, 105, 0.7);
   border-radius: 20px;
@@ -189,23 +187,21 @@ textarea{
   margin-top: 50px;
 }
 
-.mapas{
+.mapas {
   display: flex;
-  justify-content:space-evenly;
-  
+  justify-content: space-evenly;
 }
 
 /* TELEFONOS */
 
-.contactoTel{
-  display:flex;
-  justify-content:space-evenly;
+.contactoTel {
+  display: flex;
+  justify-content: space-evenly;
   justify-items: center;
   margin-top: 100px;
   align-items: center;
   font-size: 18px;
 }
-
 
 /* FOOTER */
 
@@ -228,7 +224,6 @@ textarea{
   color: #fff;
   text-shadow: 2px 2px 5px black;
 }
-
 
 /* ------------------------------------------------------- */
 
@@ -266,17 +261,17 @@ textarea{
     left: 0;
   }
 
-  .mapas{
+  .mapas {
     flex-wrap: wrap;
     padding: 50px 30px;
     transition: all 0.8s;
     gap: 40px;
   }
-  
-  .contactoTel{
+
+  .contactoTel {
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 10px ;
+    margin-top: 10px;
     margin: 30px;
     padding-top: 20px 20px;
     transition: all 0.8s;
@@ -295,8 +290,6 @@ textarea{
     margin-left: 30px;
     font-size: 16px;
   }
-
-
 }
 
 /* BREAKPOINT 3 */
@@ -310,4 +303,3 @@ textarea{
     font-size: 18px;
   }
 }
-
