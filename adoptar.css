@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("/docs/imagenes/fondoNav.png");
+  background-image: url("/imagenes/fondoNav.png");
   display: flex;
   flex-direction: column;
   min-height: 100vh;

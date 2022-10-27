@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/docs/imagenes/fondoNav.png");
+  background-image: url("/imagenes/fondoNav.png");
 }
 
 
@@ -85,7 +85,7 @@ body {
 
 .fondoForm{
   display: flex;
-  background-image: url("/docs/imagenes/fondoContacto.png");
+  background-image: url("/imagenes/fondoContacto.png");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -153,7 +153,7 @@ textarea{
 
 @media (max-width:992px){
   .fondoForm{
-    background-image: url("/docs/imagenes/fondoresponsivefor.png");
+    background-image: url("/imagenes/fondoresponsivefor.png");
     background-size: cover;
     width: 100%;
   }
