@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/imagenes/fondoNav.png");
+  background-image: url("imagenes/fondoNav.png");
 }
 
 /* BARRA DE NAVEGACION */
@@ -169,7 +169,7 @@ body {
   justify-content: center;
   padding: 150px;
   margin-top: 50px;
-  background-image: url("/imagenes/manos.png");
+  background-image: url("imagenes/manos.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
