@@ -5,8 +5,8 @@
     <link rel="icon" href="/imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
-    <link rel="stylesheet" href="/css/contacto.css" />
+    <title>Visitanos</title>
+    <link rel="stylesheet" href="/css/visitanos.css" />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +14,12 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <!-- ANIMATE.CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
 
-    <!-- ANIMATE.CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
   </head>
   <body>
     <!-- BARRA DE NAVEGACION -->
@@ -29,43 +28,38 @@
       <label for="check" class="checkbtn">
         <i class="fa-solid fa-bars"></i>
       </label>
-      <a href="/index.html" class="enlace">
+      <a href="#" class="enlace">
         <img src="/imagenes/LogoCambiado.png" alt="" class="logo" />
       </a>
       <ul class="menu">
-        <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/conocenos.html">Conocenos</a></li>
-        <li><a href="/adoptar.html">Adoptar</a></li>
-        <li><a href="/visitanos.html">Visitanos</a></li>
-        <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/docs/index.html">Inicio</a></li>
+        <li><a href="/docs/conocenos.html">Conocenos</a></li>
+        <li><a href="/docs/adoptar.html">Adoptar</a></li>
+        <li><a href="/docs/visitanos.html">Visitanos</a></li>
+        <li><a href="/docs/contacto.html">Contacto</a></li>
       </ul>
     </nav>
 
-    <!-- FORMULARIO -->
-    <div class="fondoForm">
-      <form class="formu" id="formulario">
-        <h2>
-          <i class="fa-solid fa-paw"></i>
-          CONTACTO
-          <i class="fa-solid fa-paw"></i>
-        </h2>
-        <label for="nombre" class="form_label">Nombre</label>
-        <input type="text" id="nombre" name="nombre" required/>
-        
-        <label for="telefono" class="form_label">Teléfono</label>
-        <input type="integer" id="telefono" name="telefono" required/>
-      
-        <label for="correo" class="form_label">Correo</label>
-        <input type="email" id="correo" name="correo" required/>
-        
-        <label for="mensaje" class="form_label">Mensaje</label>
-        <textarea id="mensaje" name="mensaje"></textarea required>
-         
-        <input type="submit" onClick="return enviarFormulario()" value="Enviar" id="boton" />
-         <div id="error"></div>
-      </form>
-     
+    <div class="galeria">
+      <div class="contenedor-img">
+        <div class="image">
+          <img src="/imagenes/visita1.jpg" alt="">
+        </div>
+        <div class="image">
+          <img src="/imagenes/visita2.jpg" alt="">
+        </div>
+        <div class="image">
+          <img src="/imagenes/visita3.jpg" alt="">
+        </div>
+      </div>
     </div>
+
+    <div class="donar">
+      <a href="/docs/contacto.html">
+      <img src="/imagenes/donar.png" alt="">
+      </a>
+    </div>
+
 
     <!-- MAPAS -->
     <div class="map">
@@ -116,7 +110,7 @@
         <li><span class="fa-li"></span> Lun. a Lun. de 9 a.m a 21 p.m</li>
         <li><span class="fa-li"></span>Feriados: Abierto</li>
       </ul>
-    </div>
+    </div>v>
 
     <!-- FOOTER -->
     <footer class="foot">
@@ -126,10 +120,10 @@
     </footer>
     <p class="derechos">©Codo a Codo 2022 - Derechos Reservados</p>
 
-    <script src="/js/contacto.js"></script>
     <script
-      src="https://kit.fontawesome.com/c4aa002a99.js"
+      src="https://kit.fontawesome.com/407c3ad120.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/carrusel.js"></script>
   </body>
 </html>
