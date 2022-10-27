@@ -40,7 +40,7 @@ TAREA:
 
 * Crear la página **"ADOPTAR"** (desición de último momento) En esta pagina se puede ver una galería de imagenes, con nombre y edad de cada mascota, informacion traida de la API : https://thedogapi.com/, utilizando el endPoint: https://api.thedogapi.com/v1/breeds . Tambien tiene un loader hecho con javascript y su pié de página.
 
-* Crear la página **"VISITANOS"** (desición de último momento) Contiene un h1 animado y debajo 2 direcciones en donde se encontrarian los refugios, tambien tiene numeros, mail de contacto y horarios de atención. Tambien tiene el pié de página 
+* Crear la página **"VISITANOS"** (desición de último momento) tiene una mini galeria de imagenes. Contiene un h1 animado y debajo 2 direcciones en donde se encontrarian los refugios, tambien tiene numeros, mail de contacto y horarios de atención. Tambien tiene el pié de página 
 ***
 
 

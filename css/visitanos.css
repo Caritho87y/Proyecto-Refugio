@@ -68,6 +68,43 @@ body {
   display: none;
 }
 
+.galeria{
+  padding: 50px;
+  margin: auto;
+  
+}
+
+.contenedor-img{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  height: 300px;
+  
+}
+
+.image img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 30px;
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+}
+
+.donar{
+  display: flex;
+  justify-content: center;
+}
+
+.donar img{
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  
+}
+
+
+
 /* MAPAS */
 
 .map{
